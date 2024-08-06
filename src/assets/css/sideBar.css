@@ -1,0 +1,32 @@
+.margin-custom {
+    margin-left: 20px;
+}
+
+.bg-color {
+    background-color: rgb(199, 241, 241);
+}
+
+.logo {
+    width: 35px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 3px;
+}
+
+.text-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo-item {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.bi {
+    display: inline-block;
+    font-family: "bootstrap-icons";
+    font-size: 1.5rem;
+    text-rendering: auto;
+}

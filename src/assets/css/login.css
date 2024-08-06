@@ -1,0 +1,42 @@
+.login-title {
+    margin-top: 100px;
+}
+
+.login-title h3 {
+    display: flex;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #0f01ab;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+.auth-left {
+    padding: 5rem 8rem;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.input-group-lg .input-group-text {
+    font-size: 1.5rem; /* Làm lớn icon */
+    height: calc(3.5rem + 2px); /* Làm lớn chiều cao của input */
+}
+
+.form-control-xl {
+    height: calc(3.5rem + 2px); /* Làm lớn chiều cao của input */
+    font-size: 2rem; /* Làm lớn chữ */
+    padding: .75rem 1.25rem; /* Điều chỉnh padding */
+}
+
+.form-check .btn {
+    font-size: 1.25rem; /* Làm lớn chữ */
+    padding: 0.5rem 1rem; /* Điều chỉnh padding */
+}
+
+.form-check {
+    padding-top: 1rem;
+    padding-right: 1.5em;
+}
+

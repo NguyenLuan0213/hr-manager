@@ -1,0 +1,103 @@
+.th-custom {
+    background-color: #DDDDDD !important;
+}
+
+.title-custum {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.status-active {
+    color: #28a745;
+    border: 1px solid #28a745;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    background-color: #e6ffed;
+}
+
+.status-inactive {
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    background-color: #ffe6e6;
+
+}
+
+.search-input {
+    margin-left: 5px;
+}
+
+.paging-custom {
+    width: 50%;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.add-custum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.add-employee-box {
+    background: #d9d8d8;
+    padding: 30px; /* Tăng khoảng cách bên trong hộp */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Tăng độ mờ của bóng */
+    max-width: 600px; /* Đặt chiều rộng tối đa của hộp */
+    width: 100%; /* Chiếm toàn bộ chiều rộng của phần tử chứa */
+    box-sizing: border-box;
+}
+
+.add-employee-box h3 {
+    margin-bottom: 20px; 
+}
+
+
+.add-employee-box .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px; 
+}
+
+.add-employee-box .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-gender {
+    border-radius: 1px;
+    background-color: white;
+}
